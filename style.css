@@ -12,7 +12,7 @@ margin: 0%;
 align-items: center;
 padding: 1%;
 margin-top: -2%;
-
+background-color: rgba(215, 229, 250, 0.548);
 }
 
 .first-tittle-conteiner{
@@ -104,6 +104,7 @@ flex-wrap: wrap;
  
 .call{
     :hover{
+        cursor: pointer;
         color:  rgb(255, 255, 255);
         background-color: rgb(34, 120, 120);
         border:8px rgb(0, 0, 0) solid;
@@ -116,6 +117,7 @@ padding-top: 1%;
 display: flex;
 flex-direction: column;
 align-items: center;
+cursor: pointer;
 }
     .acm{
         text-align: center;
@@ -140,30 +142,35 @@ align-items: center;
      display: flex;
      justify-content: space-between;
      :hover{
-      background-color: rgb(174, 175, 174);
+      background-color: rgb(10, 201, 10);
       rotate: 360deg;
       transition-duration: 1s;
-      transform: translateY(-10%);
+      transform: translateY(-2%);
      }
     }
     .ft img{
         width: 22%;
         margin-top: 4%;
         margin-bottom: 13%;
-        border: 6px black solid;
+        border: 4px rgba(0, 0, 0, 0.514) solid;
+        border-radius: 50%;
+        cursor: pointer;
     }
     .proyec-img{
         width: 50%;
         margin-left: 12%;
+        cursor: pointer;
     }
     .proyec-img2{
         width: 40%;
         margin-left: 60%;
         margin-top: -35%;
+        cursor: pointer;
     }
     .opr{:hover{
         transform: translatey(-12px);
         transition-duration: .5s;
+        cursor: pointer;
     }
     display: flex;
     justify-content: center;
@@ -180,9 +187,13 @@ align-items: center;
         display: flex;
         width: 100%;
         justify-content: center;
+        :hover{
+           background-color: aliceblue;
+           
+         }
     }
     .tt{
-        background-color: rgb(224, 224, 224);  
+        background-color: rgba(224, 224, 224, 0.297);  
         border: 5px rgb(46, 163, 141) solid;
         width: 100%;
         max-width: 1200px;
